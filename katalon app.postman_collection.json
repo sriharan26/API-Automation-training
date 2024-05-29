@@ -1,0 +1,586 @@
+{
+	"info": {
+		"_postman_id": "dfa0cdbe-a7ed-4617-9d5f-288dc0f02ec8",
+		"name": "katalon app",
+		"description": "HAR To Postman Generated Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "35070981"
+	},
+	"item": [
+		{
+			"name": "LOGIN API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br, zstd"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Length",
+						"value": "45"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Host",
+						"value": "katalon-demo-cura.herokuapp.com"
+					},
+					{
+						"key": "Origin",
+						"value": "https://katalon-demo-cura.herokuapp.com"
+					},
+					{
+						"key": "Referer",
+						"value": "https://katalon-demo-cura.herokuapp.com/profile.php"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "John+Doe"
+						},
+						{
+							"key": "password",
+							"value": "ThisIsNotAPassword"
+						}
+					]
+				},
+				"url": "{{baseURL1}}/authenticate.php"
+			},
+			"response": [
+				{
+					"name": " / 302",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+							},
+							{
+								"key": "Accept-Encoding",
+								"value": "gzip, deflate, br, zstd"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Content-Length",
+								"value": "45"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "Host",
+								"value": "katalon-demo-cura.herokuapp.com"
+							},
+							{
+								"key": "Origin",
+								"value": "https://katalon-demo-cura.herokuapp.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://katalon-demo-cura.herokuapp.com/profile.php"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "John+Doe"
+								},
+								{
+									"key": "password",
+									"value": "ThisIsNotAPassword"
+								}
+							]
+						},
+						"url": "https://katalon-demo-cura.herokuapp.com/authenticate.php"
+					},
+					"status": "Found",
+					"code": 302,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 29 May 2024 04:45:27 GMT"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Location",
+							"value": "https://katalon-demo-cura.herokuapp.com/#appointment"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1716957927&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=pR1MTrN4mJE0i8ra7Bt19zjg6NgJY6i%2BQ2wDeOeOaAY%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1716957927&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=pR1MTrN4mJE0i8ra7Bt19zjg6NgJY6i%2BQ2wDeOeOaAY%3D"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "NEW LOGIN API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Cookie",
+						"value": "PHPSESSID=jj88f0nnqh6r2a48scn4901ttrvq6ahe"
+					},
+					{
+						"key": "Origin",
+						"value": "https://katalon-demo-cura.herokuapp.com"
+					},
+					{
+						"key": "Referer",
+						"value": "https://katalon-demo-cura.herokuapp.com/profile.php"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "John Doe",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "ThisIsNotAPassword",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://katalon-demo-cura.herokuapp.com/authenticate.php"
+			},
+			"response": []
+		},
+		{
+			"name": "LANDING PAGE AFTER LOGIN",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br, zstd"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Host",
+						"value": "katalon-demo-cura.herokuapp.com"
+					},
+					{
+						"key": "Referer",
+						"value": "https://katalon-demo-cura.herokuapp.com/profile.php"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": "{{baseURL1}}/"
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+							},
+							{
+								"key": "Accept-Encoding",
+								"value": "gzip, deflate, br, zstd"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Host",
+								"value": "katalon-demo-cura.herokuapp.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://katalon-demo-cura.herokuapp.com/profile.php"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": "https://katalon-demo-cura.herokuapp.com/"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 29 May 2024 04:45:28 GMT"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1716957928&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=57AQNdbk%2FCfk4favWEkAYgGXJ37Eow7hM3MZt4AY7m4%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1716957928&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=57AQNdbk%2FCfk4favWEkAYgGXJ37Eow7hM3MZt4AY7m4%3D"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"CURA Healthcare Service; (678) 813-1KMS\">\n    <meta name=\"robots\" content=\"noindex\">\n\n    <title>CURA Healthcare Service</title>\n\n    <!-- Bootstrap Core CSS -->\n    <link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css\" rel=\"stylesheet\">\n    <link href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css\" rel=\"stylesheet\">\n\n    <!-- Custom CSS -->\n    <link href=\"https://katalon-demo-cura.herokuapp.com//css/theme.css\" rel=\"stylesheet\">\n\n    <!-- Custom Fonts -->\n    <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic\" rel=\"stylesheet\" type=\"text/css\">\n\n    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\n    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n    <!--[if lt IE 9]>\n    <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\n    <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n\n</head>\n\n<body>\n<!-- Navigation -->\n<a id=\"menu-toggle\" href=\"#\" class=\"btn btn-dark btn-lg toggle\"><i class=\"fa fa-bars\"></i></a>\n<nav id=\"sidebar-wrapper\">\n    <ul class=\"sidebar-nav\">\n        <a id=\"menu-close\" href=\"#\" class=\"btn btn-light btn-lg pull-right toggle\"><i class=\"fa fa-times\"></i></a>\n        <li class=\"sidebar-brand\">\n            <a href=\"./\" onclick=\"$('#menu-close').click();\">CURA Healthcare</a>\n        </li>\n        <li>\n            <a href=\"./\" onclick=\"$('#menu-close').click();\">Home</a>\n        </li>\n                <li>\n            <a href=\"history.php#history\" onclick=\"$('#menu-close').click();\">History</a>\n        </li>\n        <li>\n            <a href=\"profile.php#profile\" onclick=\"$('#menu-close').click();\">Profile</a>\n        </li>\n        <li>\n            <a href=\"authenticate.php?logout\" onclick=\"$('#menu-close').click();\">Logout</a>\n        </li>\n            </ul>\n</nav>\n\n<!-- Header -->\n<header id=\"top\" class=\"header\">\n    <div class=\"text-vertical-center\">\n        <h1>CURA Healthcare Service</h1>\n        <h3>We Care About Your Health</h3>\n        <br>\n        <a id=\"btn-make-appointment\" href=\"./index.php#appointment\" class=\"btn btn-dark btn-lg\">Make Appointment</a>\n    </div>\n</header>\n\n<section id=\"appointment\" class=\"section bg-primary\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-sm-12 text-center\">\n                <h2>Make Appointment</h2>\n                <hr class=\"small\">\n            </div>\n            <form class=\"form-horizontal\" action=\"https://katalon-demo-cura.herokuapp.com/appointment.php#summary\" method=\"post\">\n                <div class=\"form-group\">\n                    <label for=\"combo_facility\" class=\"col-sm-offset-3 col-sm-2 control-label\">Facility</label>\n                    <div class=\"col-sm-4\">\n                        <select id=\"combo_facility\" name=\"facility\" class=\"form-control\">\n                            <option value=\"Tokyo CURA Healthcare Center\">Tokyo CURA Healthcare Center</option>\n                            <option value=\"Hongkong CURA Healthcare Center\">Hongkong CURA Healthcare Center</option>\n                            <option value=\"Seoul CURA Healthcare Center\">Seoul CURA Healthcare Center</option>\n                        </select>\n                    </div>\n                </div>\n                <div class=\"form-group\">\n                    <div class=\"col-sm-offset-5 col-sm-4\">\n                        <label for=\"chk_hospotal_readmission\" class=\"checkbox-inline\">\n                            <input type=\"checkbox\" id=\"chk_hospotal_readmission\" name=\"hospital_readmission\" value=\"Yes\"> Apply for hospital readmission\n                        </label>\n                    </div>\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"col-sm-offset-3 col-sm-2 control-label\">Healthcare Program</label>\n                    <div class=\"col-sm-4\">\n                        <label class=\"radio-inline\">\n                            <input type=\"radio\" name=\"programs\" id=\"radio_program_medicare\" value=\"Medicare\" checked> Medicare\n                        </label>\n                        <label class=\"radio-inline\">\n                            <input type=\"radio\" name=\"programs\" id=\"radio_program_medicaid\" value=\"Medicaid\"> Medicaid\n                        </label>\n                        <label class=\"radio-inline\">\n                            <input type=\"radio\" name=\"programs\" id=\"radio_program_none\" value=\"None\"> None\n                        </label>\n                    </div>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"txt_visit_date\" class=\"col-sm-offset-3 col-sm-2 control-label\">Visit Date (Required)</label>\n                    <div class=\"col-sm-4\">\n                        <div class=\"input-group date\" data-provide=\"datepicker\" data-date-format=\"dd/mm/yyyy\">\n                            <input type=\"text\" class=\"form-control\" id=\"txt_visit_date\" name=\"visit_date\" placeholder=\"dd/mm/yyyy\" autocomplete=\"off\" required>\n                            <div class=\"input-group-addon\">\n                                <span class=\"glyphicon glyphicon-calendar\"></span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"txt_comment\" class=\"col-sm-offset-3 col-sm-2 control-label\">Comment</label>\n                    <div class=\"col-sm-4\">\n                        <textarea class=\"form-control\" id=\"txt_comment\" name=\"comment\" placeholder=\"Comment\" rows=\"10\"></textarea>\n                    </div>\n                </div>\n                <div class=\"form-group\">\n                    <div class=\"col-sm-offset-5 col-sm-4\">\n                        <button id=\"btn-book-appointment\" type=\"submit\" class=\"btn btn-default\">Book Appointment</button>\n                    </div>\n                </div>\n            </form>\n        </div>\n    </div>\n</section>\n\n<!-- Footer -->\n<footer>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-10 col-lg-offset-1 text-center\">\n                <h4><strong>CURA Healthcare Service</strong>\n                </h4>\n                <p>Atlanta 550 Pharr Road NE Suite 525<br>Atlanta, GA 30305</p>\n                <ul class=\"list-unstyled\">\n                    <li><i class=\"fa fa-phone fa-fw\"></i> (678) 813-1KMS</li>\n                    <li><i class=\"fa fa-envelope-o fa-fw\"></i> <a href=\"mailto:info@katalon.com\">info@katalon.com</a>\n                    </li>\n                </ul>\n                <br>\n                <ul class=\"list-inline\">\n                    <li>\n                        <a href=\"#\"><i class=\"fa fa-facebook fa-fw fa-3x\"></i></a>\n                    </li>\n                    <li>\n                        <a href=\"#\"><i class=\"fa fa-twitter fa-fw fa-3x\"></i></a>\n                    </li>\n                    <li>\n                        <a href=\"#\"><i class=\"fa fa-dribbble fa-fw fa-3x\"></i></a>\n                    </li>\n                </ul>\n                <hr class=\"small\">\n                <p class=\"text-muted\">Copyright &copy; CURA Healthcare Service 2024</p>\n            </div>\n        </div>\n    </div>\n    <a id=\"to-top\" href=\"#top\" class=\"btn btn-dark btn-lg\"><i class=\"fa fa-chevron-up fa-fw fa-1x\"></i></a>\n</footer>\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js\"></script>\n<script src=\"https://katalon-demo-cura.herokuapp.com//js/theme.js\"></script>\n\n</body>\n</html>\n\n"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL1",
+			"value": "https://katalon-demo-cura.herokuapp.com",
+			"type": "any"
+		},
+		{
+			"key": "baseURL2",
+			"value": "https://cdnjs.cloudflare.com",
+			"type": "any"
+		},
+		{
+			"key": "baseURL3",
+			"value": "https://fonts.googleapis.com",
+			"type": "any"
+		},
+		{
+			"key": "baseURL4",
+			"value": "https://fonts.gstatic.com",
+			"type": "any"
+		}
+	]
+}
